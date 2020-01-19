@@ -5,10 +5,10 @@ class F{
 public static void main(String[] args) {
 
 boolean b = true;
-
+Scanner sc = new Scanner(System.in);
 while (b) {
 
-Scanner sc = new Scanner(System.in);
+
 System.out.println("Please enter number.");
 
 int num = sc.nextInt();
@@ -42,6 +42,7 @@ if (sc.next().equals("n")) {
 b = false;
 }
 }
+sc.close();
 }
 
 }
